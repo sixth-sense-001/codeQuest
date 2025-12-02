@@ -1,12 +1,13 @@
 {
-  "name": "sdms",
+  "name": "codeQuest",
   "version": "1.0.0",
   "type" :"module",
   "description": "",
   "main": "server.js",
   
   "scripts": {
-  "start": "node server.js",
+  "frontend" : "cd frontend && npm start",
+  "start":"node server.js",
   "dev": "nodemon backend/server.js"
 },
   "repository": {
