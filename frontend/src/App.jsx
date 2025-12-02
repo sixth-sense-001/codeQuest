@@ -1,9 +1,16 @@
 import React from "react";
-import Login from "./Login";
+import LoginPage from "./Login";
+import RegisterPage from "./Register";
 import SignUpPage from "./Register";
 
 function App () {
-  return <Login/>;
+    return (
+      <>
+        <RegisterPage/>
+        <LoginPage/>
+      </>
+    );
+
 
 }
 

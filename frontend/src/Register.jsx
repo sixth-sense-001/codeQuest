@@ -42,7 +42,7 @@ const RegisterPage = () => {
                 <input type = "text" id = "email" placeholder="e.g.John doe" className="shadow-lg p-[0.75rem] rounded min-w-full overflow-hidden border-2 border-blue-400 rounded-[2rem] bg-gray-500 input:focus-blue-200 onChange = {e => setEmail(e.target.value)}"/><br/>
                 <br/><label for = "password">Password:</label><br/><br/>
                 <input type="password" id = "password" placeholder = "*******" className="shadow-lg p-[0.75rem] rounded min-w-full overflow-hidden border-2 border-blue-400 rounded-[2rem] bg-gray-500 onChange = {e => setPassword(e.target.value)}"/><br/><br/>
-                <button type = "submit" className="bg-blue-400 px-[3rem] w-full text-white py-[0.25rem] hover:bg-blue-500 rounded-[2rem] hover:shadow-xl">Login</button><br/><br/>
+                <button type = "submit" className="bg-blue-400 px-[3rem] w-full text-white py-[0.25rem] hover:bg-blue-500 rounded-[2rem] hover:shadow-xl">SignUp</button><br/><br/>
                 <p className="flex items-center justify-center">or</p>
                 <div className="flex items-center justify-center bg-gray-500 p-3 rounded-[2rem] mt-[1rem] mb-[1rem] border-2 border-blue-400 shadow-xl"><FaGoogle className="mr-[1rem] mt-[0.10rem] text-blue-200"/> <a className="mt-[0.1rem]]">Continue With Google</a></div>
                 <div className="flex items-center justify-center bg-gray-500 p-3 rounded-[2rem] mt-[1rem] mb-[1rem] border-2 border-blue-400 shadow-xl"><FaGithub className="mr-[1rem] mt-[0.10rem] text-blue-200"/> <a className="mt-[0.1rem]]">Continue With Github</a></div>
@@ -54,4 +54,4 @@ const RegisterPage = () => {
     );
 }
 
-export default LoginPage;
+export default RegisterPage;

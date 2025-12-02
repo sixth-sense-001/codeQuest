@@ -10,7 +10,7 @@ const LoginPage = () => {
 
     const handleLogin = async (e) => {
         e.preventDefault();
-        setMessage = ("checking...");
+        setMessage("checking...");
 
 
         try {
